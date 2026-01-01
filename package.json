@@ -3,27 +3,26 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "webpack serve --mode development --open",
+    "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "test": "cypress run"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.22.3"
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "6.22.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.0",
-    "@babel/preset-env": "^7.23.0",
-    "@babel/preset-react": "^7.22.15",
-    "babel-loader": "^8.3.0",
-    "css-loader": "^6.8.1",
-    "style-loader": "^3.3.3",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.3",
-    "html-webpack-plugin": "^4.5.2",
-    "cypress": "^9.7.0"
+    "@babel/core": "7.23.0",
+    "@babel/preset-env": "7.23.0",
+    "@babel/preset-react": "7.22.15",
+    "babel-loader": "8.3.0",
+    "css-loader": "6.8.1",
+    "style-loader": "2.0.0",
+    "webpack": "4.44.2",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.3",
+    "html-webpack-plugin": "4.5.2",
+    "cypress": "9.7.0"
   }
 }
- 
